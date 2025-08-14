@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲伺服器官網</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.jfif" alt="Server Logo">
+                <span>楓之谷私服</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#server-info" class="nav-link">伺服器介紹</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">技能改動 <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="warrior-skills.html">戰士技能</a></li>
+                        <li><a href="#skill-mage">法師技能</a></li>
+                        <li><a href="#skill-archer">弓箭手技能</a></li>
+                        <li><a href="#skill-thief">盜賊技能</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">遊戲資訊 <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#game-guide">遊戲指南</a></li>
+                        <li><a href="#game-events">活動資訊</a></li>
+                        <li><a href="#game-updates">更新日誌</a></li>
+                        <li><a href="#game-download">遊戲下載</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#game-rules" class="nav-link">遊戲規範</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首頁主要內容 -->
+    <main id="home">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-overlay"></div>
+                <img src="https://via.placeholder.com/1920x1080/000000/FF0000?text=Game+Hero+Image" alt="Game Background">
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">歡迎來到我們的遊戲世界</h1>
+                <p class="hero-subtitle">體驗最刺激的冒險旅程</p>
+                <button class="cta-button">開始遊戲</button>
+            </div>
+            <div class="hero-particles"></div>
+        </section>
+
+        <!-- 特色介紹區塊 -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">遊戲特色</h2>
+                <div class="features-grid">
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                       
+                        <img src="images/1.jpeg" alt="戰鬥系統">
+                        <div class="feature-content">
+                            <h3>史詩級戰鬥</h3>
+                            <p>體驗前所未有的戰鬥系統，每一次攻擊都充滿策略性和爽快感。多樣化的技能組合讓你打造獨特的戰鬥風格。</p>
+                        </div>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        
+                        <img src="images/2.jpg" alt="公會系統">
+                        <div class="feature-content">
+                            <h3>公會征戰</h3>
+                            <p>與好友組建公會，征服各大副本和領域。團隊合作是勝利的關鍵，一起創造屬於你們的傳奇故事。</p>
+                        </div>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        
+                        <img src="images/3.jfif" alt="裝備系統">
+                        <div class="feature-content">
+                            <h3>極品裝備</h3>
+                            <p>收集和鍛造各種稀有裝備，每件裝備都有獨特的屬性和外觀。打造最強角色，稱霸遊戲世界。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 遊戲公告區塊 -->
+        <section class="announcements">
+            <div class="container">
+                <h2 class="section-title">最新公告</h2>
+                <div class="announcements-grid">
+                    <div class="announcement-card" data-aos="fade-left">
+                        <div class="announcement-date">
+                            <span class="date-day">15</span>
+                            <span class="date-month">Aug</span>
+                        </div>
+                        <div class="announcement-content">
+                            <span class="announcement-tag">系統維護</span>
+                            <h3>伺服器定期維護公告</h3>
+                            <p>為了提供更好的遊戲體驗，我們將於本週四進行例行維護...</p>
+                            <a href="#" class="read-more">閱讀更多</a>
+                        </div>
+                    </div>
+                    <div class="announcement-card" data-aos="fade-left" data-aos-delay="100">
+                        <div class="announcement-date">
+                            <span class="date-day">12</span>
+                            <span class="date-month">Aug</span>
+                        </div>
+                        <div class="announcement-content">
+                            <span class="announcement-tag">新版本</span>
+                            <h3>2.5版本更新內容</h3>
+                            <p>全新副本、職業技能調整以及UI優化等內容正式上線...</p>
+                            <a href="#" class="read-more">閱讀更多</a>
+                        </div>
+                    </div>
+                    <div class="announcement-card" data-aos="fade-left" data-aos-delay="200">
+                        <div class="announcement-date">
+                            <span class="date-day">10</span>
+                            <span class="date-month">Aug</span>
+                        </div>
+                        <div class="announcement-content">
+                            <span class="announcement-tag">活動</span>
+                            <h3>夏日慶典活動開跑</h3>
+                            <p>參與夏日特別活動，獲得限定裝備和豐富獎勵...</p>
+                            <a href="#" class="read-more">閱讀更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- 遊戲規範頁面 -->
+    <section id="game-rules" class="page-content" style="display: none;">
+        <div class="container">
+            <h1 class="page-title">遊戲規範</h1>
+            <div class="content-wrapper">
+                <h2>伺服器規則</h2>
+                <p>為了維護良好的遊戲環境，請遵守以下規範：</p>
+                
+                <h3>基本規範</h3>
+                <ul>
+                    <li>禁止使用外掛程式</li>
+                    <li>禁止惡意破壞遊戲環境</li>
+                    <li>禁止辱罵或騷擾其他玩家</li>
+                    <li>禁止利用遊戲漏洞獲利</li>
+                </ul>
+
+                <h3>處罰措施</h3>
+                <p>違反規範的玩家將面臨警告、暫時封禁或永久封禁等處罰。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>遊戲伺服器</h3>
+                    <p>提供最佳的遊戲體驗</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速連結</h3>
+                    <ul>
+                        <li><a href="#home">首頁</a></li>
+                        <li><a href="#server-info">伺服器介紹</a></li>
+                        <li><a href="#game-rules">遊戲規範</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>聯絡我們</h3>
+                    <p>Email: admin@gameserver.com</p>
+                    <p>Discord: GameServer#1234</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Game Server. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
